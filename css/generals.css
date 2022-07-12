@@ -16,6 +16,20 @@ body {
   color: #555;
 }
 
+.flex {
+  display: flex;
+}
+
+.center-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.center-spabtw {
+  justify-content: space-between;
+  align-items: center;
+}
+
 .container {
   /* 1140px */
   max-width: 120rem;
