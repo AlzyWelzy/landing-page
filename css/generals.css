@@ -30,6 +30,10 @@ body {
   align-items: center;
 }
 
+.grid {
+  display: grid;
+}
+
 .container {
   /* 1140px */
   max-width: 120rem;

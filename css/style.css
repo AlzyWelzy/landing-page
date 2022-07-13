@@ -19,3 +19,62 @@
 .nav-link {
   color: inherit;
 }
+
+.section-hero {
+  background-color: #1f2937;
+  /* padding: 3rem; */
+}
+
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 0 auto;
+  gap: 10rem;
+}
+
+/* .hero-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+} */
+
+.awesome-text {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #f9faf8;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.more-text {
+  font-size: 2rem;
+  color: #e5e7eb;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  background-color: #3882f6;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.9rem;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.hero-img {
+}
+
+.hero-img img {
+  max-width: 108%;
+}
