@@ -71,6 +71,7 @@
   cursor: pointer;
   font-family: inherit;
   transition: all 0.3s;
+  color: #f9faf8;
 }
 
 .hero-img {
@@ -155,4 +156,53 @@
 .author {
   font-size: 2rem;
   align-self: end;
+}
+
+.section-cta {
+  background-color: none;
+  padding-bottom: 3rem;
+}
+
+.cta {
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 7rem;
+  margin-top: 5rem;
+  border-radius: 1.3rem;
+}
+
+.cta-time {
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.1rem;
+}
+
+.cta-signup {
+  color: #e5e7eb;
+  font-size: 2rem;
+  letter-spacing: 0.01rem;
+  line-height: 1.5;
+}
+
+.cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-cta {
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 11rem;
+  background: inherit;
+  border: 1px solid aliceblue;
+  color: inherit;
+  font-weight: 600;
+  font-size: 2rem;
 }
