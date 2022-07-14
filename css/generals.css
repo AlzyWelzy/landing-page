@@ -46,11 +46,3 @@ a:visited {
   text-decoration: none;
   transition: all 0.3s;
 }
-
-.krishna-quote {
-  font-size: 3rem;
-  font-style: italic;
-  font-weight: lighter;
-  color: #1f2937;
-  line-height: 4rem;
-}
