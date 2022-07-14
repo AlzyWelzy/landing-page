@@ -128,3 +128,14 @@
   letter-spacing: 0.1rem;
   margin-bottom: 1rem;
 }
+
+.section-quote {
+  background-color: #e5e7eb;
+  padding-bottom: 3rem;
+  /* padding: 3rem; */
+}
+
+.quote {
+  max-width: 130rem;
+  margin: 0 auto;
+}
