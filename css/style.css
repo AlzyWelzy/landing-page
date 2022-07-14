@@ -79,3 +79,52 @@
 .hero-img img {
   max-width: 108%;
 }
+
+.section-information {
+  background-color: #eeeeee;
+  padding-bottom: 7rem;
+}
+
+.information {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  margin: 0 auto;
+  /* gap: 10rem; */
+}
+
+.rand-info {
+  grid-column: span 3;
+  justify-self: center;
+  font-size: 4rem;
+}
+
+.info {
+  grid-column: span 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10rem;
+}
+
+.how {
+  display: inline-block;
+  max-width: 33%;
+  list-style: none;
+  text-align: center;
+}
+
+.how ion-icon {
+  font-size: 7rem;
+  color: #3882f6;
+}
+
+.text {
+  font-size: 2rem;
+  /* color: #e5e7eb; */
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
