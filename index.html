@@ -34,10 +34,14 @@
     <header class="header flex center-spabtw">
       <a href="#" class="logo-link">Alzy Welzy</a>
       <nav class="nav flex center-spabtw">
-        <a href="#" class="nav-link">Home</a>
-        <a href="#" class="nav-link">About</a>
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#cta" class="nav-link">Contact</a>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main class="main">
@@ -62,7 +66,7 @@
         </div>
       </section>
 
-      <section class="section-information">
+      <section class="section-information" id="home">
         <div class="information">
           <h2 class="rand-info">How I make awesome webpages?</h2>
           <ul class="info">
@@ -91,19 +95,18 @@
         </div>
       </section>
 
-      <section class="section-quote">
+      <section class="section-quote" id="about">
         <div class="quote">
           <blockquote class="krishna-quote">
             "He who has let go of hatred who treats all beings with kindness and
             compassion, who is always calm and peaceful, unmoved by pain or
             pleasure, free of "I" and "mine", self-controlled, firm and patient,
-            his whole mine focuses on me that is the man/woman I love the
-            best.""
+            his whole mine focuses on me that is the man/woman I love the best."
           </blockquote>
           <p class="author">Krishna, Friend of Afflicted</p>
         </div>
       </section>
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="cta">
           <div class="sign-time">
             <p class="cta-time">Call to action! It's time!</p>
